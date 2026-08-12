@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-label="Non-intrusive load monitoring and smart energy">
+  <rect width="900" height="500" fill="#f8f4f0"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="450" y="68" font-size="34" font-weight="700" fill="#2b211c" text-anchor="middle">Smart energy &amp; NILM</text>
+    <text x="450" y="104" font-size="20" fill="#7a6a60" text-anchor="middle">event detection on aggregate consumption</text>
+
+    <rect x="70" y="140" width="760" height="230" rx="18" fill="#ffffff" stroke="#d8c9bd" stroke-width="2"/>
+
+    <g stroke="#eadfd6" stroke-width="1.5">
+      <line x1="100" y1="200" x2="800" y2="200"/>
+      <line x1="100" y1="255" x2="800" y2="255"/>
+      <line x1="100" y1="310" x2="800" y2="310"/>
+    </g>
+
+    <polyline points="100,320 160,320 160,262 240,262 240,300 320,300 320,196 430,196 430,268 520,268 520,180 620,180 620,286 700,286 700,232 800,232"
+              fill="none" stroke="#8f3f2a" stroke-width="4" stroke-linejoin="round"/>
+
+    <g fill="none" stroke="#1f5673" stroke-width="2.5" stroke-dasharray="6 6">
+      <line x1="160" y1="160" x2="160" y2="350"/>
+      <line x1="320" y1="160" x2="320" y2="350"/>
+      <line x1="520" y1="160" x2="520" y2="350"/>
+      <line x1="700" y1="160" x2="700" y2="350"/>
+    </g>
+    <g fill="#1f5673">
+      <circle cx="160" cy="160" r="7"/><circle cx="320" cy="160" r="7"/>
+      <circle cx="520" cy="160" r="7"/><circle cx="700" cy="160" r="7"/>
+    </g>
+
+    <text x="88" y="176" font-size="15" fill="#7a6a60">current (A)</text>
+    <text x="740" y="352" font-size="15" fill="#1f5673">detected events</text>
+
+    <g text-anchor="middle" font-size="17" font-weight="600" fill="#2b211c">
+      <rect x="120" y="400" width="200" height="46" rx="14" fill="#ffffff" stroke="#d8c9bd" stroke-width="2"/>
+      <text x="220" y="429">FFT + Tukey's fences</text>
+      <rect x="350" y="400" width="200" height="46" rx="14" fill="#ffffff" stroke="#d8c9bd" stroke-width="2"/>
+      <text x="450" y="429">deep clustering</text>
+      <rect x="580" y="400" width="200" height="46" rx="14" fill="#ffffff" stroke="#d8c9bd" stroke-width="2"/>
+      <text x="680" y="429">anomaly detection</text>
+    </g>
+  </g>
+</svg>

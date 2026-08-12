@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-code",
           title: "code",
-          description: "Public repositories, tooling ecosystems, and selected code related to my work.",
+          description: "Public repositories, research software, and the ecosystems I contribute to.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -73,42 +73,68 @@ ninja.data = [{
             window.location.href = "/blog/2023/new-poste/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-a-new-position-as-r-amp-amp-d-engineer-at-inria-stack-team-nantes-working-on-coansible-an-extension-that-brings-concerto-s-coordination-model-into-ansible-for-adaptive-distributed-deployments",
+      },{id: "news-started-a-new-position-as-r-amp-amp-d-engineer-at-inria-stack-team-nantes-working-on-coansible-an-extension-that-brings-concerto-s-coordination-model-into-ansible-for-adaptive-distributed-deployments",
           title: 'Started a new position as R&amp;amp;amp;D Engineer at Inria (STACK team, Nantes), working...',
+          description: "",
+          section: "News",},{id: "news-our-paper-multi-provider-capabilities-in-enoslib-was-published-at-dais-2025-discotec-lille-it-extends-enoslib-so-a-single-experiment-description-can-span-several-testbeds-across-the-edge-to-cloud-continuum-open-access-pdf",
+          title: '📄 Our paper Multi-provider capabilities in EnOSlib was published at DAIS 2025 (DisCoTec,...',
           description: "",
           section: "News",},{id: "news-exciting-news-i-am-honored-to-serve-as-co-web-chair-for-the-18th-ieee-acm-international-conference-on-utility-and-cloud-computing-ucc-2025-and-the-12th-ieee-acm-international-conference-on-big-data-computing-applications-and-technologies-bdcat-2025-which-will-be-held-in-nantes-france-looking-forward-to-contributing-to-the-success-of-these-conferences",
           title: '📰 Exciting News! I am honored to serve as Co-Web Chair for the...',
           description: "",
-          section: "News",},{id: "projects-erbuilder",
+          section: "News",},{id: "news-application-level-observability-for-adaptive-edge-to-cloud-continuum-systems-is-published-in-the-ucc-25-proceedings-the-paper-combines-opentelemetry-prometheus-k3s-and-chaos-mesh-into-an-slo-aware-feedback-loop-evaluated-on-grid-5000-arxiv-code",
+          title: '📄 Application level observability for adaptive Edge to Cloud continuum systems is published...',
+          description: "",
+          section: "News",},{id: "projects-teaching-labs",
+          title: 'Teaching labs',
+          description: "Hands-on course material for operating systems, cloud, middleware and DevOps (2017-2025)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_teaching_labs/";
+            },},{id: "projects-erbuilder",
           title: 'ERBuilder',
-          description: "Exploring data modeling and SQL generation across SGBDs",
+          description: "Data modeling and SQL generation across relational database engines, in Delphi/Pascal (2014-2016)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-gkos-interentreprise",
           title: 'GKOS InterEntreprise',
-          description: "From Senior Odoo Developer to ERP Project Manager (2018–2023)",
+          description: "From senior Odoo developer to ERP project manager, five years running a production ERP (2018-2023)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-phd-thesis",
           title: 'PhD Thesis',
-          description: "PhD Thesis on Soft Sensors and Smart Energy (2016–2023)",
+          description: "Soft sensors for complex systems, from theory to smart energy applications (2016-2023)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-r-amp-d-engineer-at-imt-atlantique",
-          title: 'R&amp;amp;D Engineer at IMT Atlantique',
-          description: "Feedback mechanisms for Edge-to-Cloud applications",
+            },},{id: "projects-edge-to-cloud-observability",
+          title: 'Edge-to-Cloud observability',
+          description: "Feedback mechanisms and SLO-aware adaptation for a distributed video processing pipeline (UCC &#39;25)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-r-amp-d-engineer-at-inria",
-          title: 'R&amp;amp;D Engineer at INRIA',
-          description: "CoAnsible - Extending Ansible with Concerto for automated orchestration",
+            },},{id: "projects-coansible",
+          title: 'CoAnsible',
+          description: "Extending Ansible with Concerto&#39;s coordination model for adaptive orchestration (Inria, 2024-2026)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-enoslib-multi-provider",
+          title: 'EnOSlib multi-provider',
+          description: "Driving distributed system experiments across several testbeds from a single description (DAIS 2025)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_enoslib/";
+            },},{id: "projects-ucc-amp-bdcat-2025",
+          title: 'UCC &amp;amp; BDCAT 2025',
+          description: "Co-Web Chair for two IEEE/ACM conferences hosted in Nantes, from site build to live program",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_conferences/";
+            },},{id: "projects-smart-energy-amp-nilm",
+          title: 'Smart energy &amp;amp; NILM',
+          description: "Event detection, deep clustering and anomaly detection on residential electricity consumption",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_smart_energy/";
+            },},{id: "projects-concerto-reconfiguration",
+          title: 'Concerto reconfiguration',
+          description: "Component-based coordination applied to the deployment and reconfiguration of distributed databases",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_concerto/";
             },},{
         id: 'social-email',
         title: 'email',
