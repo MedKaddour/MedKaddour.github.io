@@ -1,11 +1,24 @@
 ---
 layout: page
-title: R&D Engineer at IMT Atlantique
-description: Feedback mechanisms for Edge-to-Cloud applications
+title: Edge-to-Cloud observability
+description: Feedback mechanisms and SLO-aware adaptation for a distributed video processing pipeline (UCC '25)
 img: assets/img/img_2.png
-
 importance: 2
 category: research
+tags: [Kubernetes, OpenTelemetry, Prometheus, Chaos Mesh, Grid'5000]
+links:
+  - name: Source code
+    url: https://gitlab.inria.fr/STACK-RESEARCH-GROUP/software/edge-to-cloud-video-processing
+    icon: fa-brands fa-gitlab
+  - name: Paper (ACM)
+    url: https://dl.acm.org/doi/10.1145/3773274.3774855
+    icon: fa-solid fa-file-lines
+  - name: Preprint (arXiv)
+    url: https://arxiv.org/abs/2601.14923
+    icon: fa-solid fa-file-pdf
+  - name: Grid'5000
+    url: https://www.grid5000.fr
+    icon: fa-solid fa-server
 ---
 
 During a one-year project at **STACK Team - IMT Atlantique**, I worked as a **Research and Development Engineer** on feedback mechanisms for **Edge-to-Cloud applications**,  

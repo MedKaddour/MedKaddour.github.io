@@ -47,15 +47,48 @@ latest_posts:
 <div class="home-actions">
   <a class="home-button primary" href="/projects/">Explore projects</a>
   <a class="home-button secondary" href="/publications/">Selected publications</a>
+  <a class="home-button secondary" href="/repositories/">Code</a>
   <a class="home-button secondary" href="/cv/">Open CV</a>
+</div>
+
+<div class="project-links">
+  <a class="project-link" href="https://scholar.google.com/citations?user=UFnOqHEAAAAJ" target="_blank" rel="external noopener">
+    <i class="fa-brands fa-google"></i><span>Google Scholar</span>
+  </a>
+  <a class="project-link" href="https://orcid.org/0000-0002-2745-4024" target="_blank" rel="external noopener">
+    <i class="fa-brands fa-orcid"></i><span>ORCID</span>
+  </a>
+  <a class="project-link" href="https://dblp.org/pid/301/2151.html" target="_blank" rel="external noopener">
+    <i class="fa-solid fa-database"></i><span>DBLP</span>
+  </a>
+  <a class="project-link" href="https://github.com/MedKaddour" target="_blank" rel="external noopener">
+    <i class="fa-brands fa-github"></i><span>GitHub</span>
+  </a>
+  <a class="project-link" href="https://gitlab.inria.fr/sikaddou" target="_blank" rel="external noopener">
+    <i class="fa-brands fa-gitlab"></i><span>Inria GitLab</span>
+  </a>
+  <a class="project-link" href="https://www.linkedin.com/in/kaddour-sidi-mohammed-phd-1551a1110" target="_blank" rel="external noopener">
+    <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+  </a>
 </div>
 
 <div class="signal-grid">
   <div class="signal-card">
     <h3>Current work</h3>
     <p>
-      At <a href="https://www.inria.fr">Inria</a>, I am developing <strong>CoAnsible</strong>, an
-      extension that brings coordination logic from Concerto into complex distributed deployments.
+      At <a href="https://www.inria.fr">Inria</a> (<a href="https://stack-research-group.gitlabpages.inria.fr/web/">STACK team</a>),
+      I am developing <a href="/projects/5_project/"><strong>CoAnsible</strong></a>, an extension that
+      brings coordination logic from Concerto into complex distributed deployments.
+    </p>
+  </div>
+  <div class="signal-card">
+    <h3>Latest paper</h3>
+    <p>
+      <em>Application level observability for adaptive Edge to Cloud continuum systems</em>, presented
+      at <strong>UCC '25</strong> in Nantes &mdash;
+      <a href="https://dl.acm.org/doi/10.1145/3773274.3774855">ACM</a> /
+      <a href="https://arxiv.org/abs/2601.14923">arXiv</a> /
+      <a href="https://gitlab.inria.fr/STACK-RESEARCH-GROUP/software/edge-to-cloud-video-processing">code</a>.
     </p>
   </div>
   <div class="signal-card">
@@ -63,14 +96,7 @@ latest_posts:
     <p>
       My work combines <strong>OpenTelemetry</strong>, <strong>Prometheus</strong>,
       <strong>Kubernetes</strong>, and <strong>Ansible</strong> to build measurable and adaptive
-      systems.
-    </p>
-  </div>
-  <div class="signal-card">
-    <h3>Research scope</h3>
-    <p>
-      I work across runtime monitoring, feedback loops, resource-aware placement, and reproducible
-      experiments on heterogeneous infrastructures.
+      systems, with reproducible experiments on <a href="https://www.grid5000.fr">Grid'5000</a>.
     </p>
   </div>
 </div>

@@ -1,9 +1,32 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badges displayed next to each publication.
+# The key must match the `abbr` field of the corresponding entry in papers.bib.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"UCC":
+  url: https://ucc-conference.org
+  color: "#8f3f2a"
 
-"Vision":
-  color: "#009f36"
+"DAIS":
+  url: https://link.springer.com/book/10.1007/978-3-031-95728-4
+  color: "#1f5673"
+
+"FlexScience":
+  url: https://dl.acm.org/doi/proceedings/10.1145/3659995
+  color: "#2f6b4f"
+
+"IJSSCI":
+  url: https://doi.org/10.4018/IJSSCI.2021070102
+  color: "#5a4a86"
+
+"arXiv":
+  url: https://arxiv.org
+  color: "#a8231a"
+
+"PhD":
+  url: https://theses.hal.science/tel-04461469
+  color: "#3f3f46"
+
+"WSN":
+  color: "#6b5b3e"
+
+"Thesis":
+  color: "#6b5b3e"

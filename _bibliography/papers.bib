@@ -1,11 +1,93 @@
-@string{aps = {American Physical Society,}}
-
-@article{youcefroutage,
-  title={Routage bas{\'e} sur les algorithmes g{\'e}n{\'e}tiques dans les r{\'e}seaux de capteurs {\`a} grande {\'e}chelle},
-  author={Youcef, IMINE and Sidi Mohammed, KADDOUR},
-  year={2018},
+@inproceedings{10.1145/3773274.3774855,
+  author={Kaddour, Sidi Mohammed and Jonglez, Baptiste and Balouek, Daniel},
+  title={Application level observability for adaptive Edge to Cloud continuum systems},
+  year={2025},
+  abbr={UCC},
+  selected={true},
+  isbn={9798400722851},
+  publisher={Association for Computing Machinery},
+  address={New York, NY, USA},
+  url={https://doi.org/10.1145/3773274.3774855},
+  doi={10.1145/3773274.3774855},
+  html={https://dl.acm.org/doi/10.1145/3773274.3774855},
+  arxiv={2601.14923},
+  pdf={https://arxiv.org/pdf/2601.14923},
+  code={https://gitlab.inria.fr/STACK-RESEARCH-GROUP/software/edge-to-cloud-video-processing},
+  bibtex_show={true},
+  abstract={This paper introduces an application-level observability framework for adaptive Edge-to-Cloud systems. The approach integrates SLO-aware feedback loops and fine-grained monitoring using OpenTelemetry, Prometheus, and Kubernetes-based infrastructures. Experimental results show improved adaptability, scalability, and resilience under dynamic workloads and fault conditions.},
+  booktitle={Proceedings of the 18th IEEE/ACM International Conference on Utility and Cloud Computing (UCC '25)},
+  articleno={58},
+  numpages={6},
   preview={pub.png},
-  abstract={This paper presents a routing approach for large-scale wireless sensor networks based on genetic algorithms. The proposed solution aims to improve routing efficiency, scalability, and path optimization in dense sensor deployments by leveraging evolutionary computation techniques.}
+  keywords={Edge-to-Cloud Continuum, Application-level Observability, Service-Level Objectives, Adaptive Systems},
+  series={UCC '25}
+}
+
+@inproceedings{jonglez2025multi,
+  title={Multi-provider capabilities in EnOSlib: driving distributed system experiments on the edge-to-cloud continuum},
+  author={Jonglez, Baptiste and Simonin, Matthieu and Philippe, Jolan and Kaddour, Sidi Mohammed},
+  booktitle={Distributed Applications and Interoperable Systems (DAIS 2025), 25th IFIP WG 6.1 International Conference},
+  pages={25--42},
+  year={2025},
+  organization={Springer Nature Switzerland},
+  abbr={DAIS},
+  selected={true},
+  doi={10.1007/978-3-031-95728-4_2},
+  html={https://link.springer.com/chapter/10.1007/978-3-031-95728-4_2},
+  pdf={https://inria.hal.science/hal-05052776v1/document},
+  code={https://gitlab.inria.fr/discovery/enoslib},
+  bibtex_show={true},
+  preview={pub.png},
+  keywords={EnOSlib, Reproducible Experiments, Edge-to-Cloud Continuum, Grid'5000},
+  abstract={This paper extends EnOSlib with multi-provider capabilities to support experimental research across the edge-to-cloud continuum. The proposed enhancements enable seamless orchestration, reproducibility, and performance evaluation of distributed systems spanning heterogeneous infrastructures, including synchronized reservations across several testbeds.}
+}
+
+@inproceedings{ilager2024proteus,
+  title={Proteus: Towards Intent-driven Automated Resource Management Framework for Edge Sensor Nodes},
+  author={Ilager, Shashikant and Balouek, Daniel and Kaddour, Sidi Mohammed and Brandic, Ivona},
+  booktitle={Proceedings of the 14th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures (FlexScience '24)},
+  pages={1--8},
+  year={2024},
+  abbr={FlexScience},
+  selected={true},
+  doi={10.1145/3659995.3660037},
+  html={https://dl.acm.org/doi/10.1145/3659995.3660037},
+  pdf={https://hal.science/hal-04775138v1/document},
+  bibtex_show={true},
+  preview={pub.png},
+  keywords={Intent-driven Management, Edge Sensor Nodes, Resource Management},
+  abstract={Proteus presents an intent-driven framework for automated resource management in edge sensor nodes. The framework translates high-level intents into low-level resource configurations, enabling adaptive, efficient, and scalable management of edge infrastructures.}
+}
+
+@article{kaddour2024event,
+  title={Event Detection for Non-intrusive Load Monitoring using Tukey's Fences},
+  author={Kaddour, Sidi Mohammed and Lehsaini, Mohamed and Bouchachia, Abdelhamid},
+  journal={arXiv preprint arXiv:2402.17809},
+  year={2024},
+  abbr={arXiv},
+  selected={true},
+  arxiv={2402.17809},
+  html={https://arxiv.org/abs/2402.17809},
+  pdf={https://arxiv.org/pdf/2402.17809},
+  doi={10.48550/arXiv.2402.17809},
+  bibtex_show={true},
+  preview={pub.png},
+  keywords={NILM, Event Detection, Smart Energy, Signal Processing},
+  abstract={This paper proposes a Tukey's Fences-based event detection method for non-intrusive load monitoring (NILM). By combining FFT-based analysis with statistical fences, the approach accurately detects appliance switching events in aggregated electrical signals, achieving high detection accuracy compared to existing methods.}
+}
+
+@phdthesis{kaddour2023soft,
+  title={Soft Sensors For Complex Systems},
+  author={Kaddour, Sidi Mohammed},
+  year={2023},
+  school={University of Tlemcen; STIC Laboratory},
+  abbr={PhD},
+  html={https://theses.hal.science/tel-04461469},
+  pdf={https://theses.hal.science/tel-04461469/document},
+  bibtex_show={true},
+  preview={pub.png},
+  keywords={Soft Sensors, Machine Learning, Smart Energy, Complex Systems},
+  abstract={This PhD thesis focuses on the design and development of soft sensors for complex systems. It explores data-driven and hybrid modeling approaches to estimate unmeasurable or costly variables, with applications in monitoring, control, and fault detection for industrial and cyber-physical systems.}
 }
 
 @article{kaddour2021electricity,
@@ -16,79 +98,34 @@
   number={3},
   pages={12--27},
   year={2021},
-  publisher={IGI Global Scientific Publishing},
-  doi={10.4018/IJSSCI.2021070102},
-  preview={pub.png},
+  publisher={IGI Global},
+  abbr={IJSSCI},
   selected={true},
+  doi={10.4018/IJSSCI.2021070102},
+  html={https://doi.org/10.4018/IJSSCI.2021070102},
+  bibtex_show={true},
+  preview={pub.png},
+  keywords={Outlier Detection, Electricity Consumption, Isolation Forest, One-Class SVM},
   abstract={This paper investigates abnormal electricity consumption detection using several unsupervised outlier detection techniques. Isolation Forest, One-Class SVM, and K-means clustering are evaluated on real consumption data to identify unusual patterns. The results demonstrate the effectiveness of these methods in detecting energy anomalies and supporting better energy management.}
 }
 
-@phdthesis{kaddour2023soft,
-  title={Soft Sensors For Complex Systems},
-  author={Kaddour, Sidi Mohammed},
-  year={2023},
-  school={University of Tlemcen; STIC Laboratory},
+@article{youcefroutage,
+  title={Routage bas{\'e} sur les algorithmes g{\'e}n{\'e}tiques dans les r{\'e}seaux de capteurs {\`a} grande {\'e}chelle},
+  author={Imine, Youcef and Kaddour, Sidi Mohammed},
+  year={2018},
+  abbr={WSN},
   preview={pub.png},
-  abstract={This PhD thesis focuses on the design and development of soft sensors for complex systems. It explores data-driven and hybrid modeling approaches to estimate unmeasurable or costly variables, with applications in monitoring, control, and fault detection for industrial and cyber-physical systems.}
+  keywords={Wireless Sensor Networks, Genetic Algorithms, Routing},
+  abstract={This paper presents a routing approach for large-scale wireless sensor networks based on genetic algorithms. The proposed solution aims to improve routing efficiency, scalability, and path optimization in dense sensor deployments by leveraging evolutionary computation techniques.}
 }
 
 @misc{kazi2014developpement,
-  title={D{\'e}veloppement d’une application mobile sous Android (Jeu {\'e}ducatif : Des Chiffres et Des Lettres)},
-  author={KAZI AOUEL, Abdessamad and IMINE, Youcef and HEDDI, Hichem and KADDOUR, Sidi-Mohammed},
-  journal={http://dspace1.univ-tlemcen.dz/handle/112/6335},
+  title={D{\'e}veloppement d'une application mobile sous Android (Jeu {\'e}ducatif: Des Chiffres et Des Lettres)},
+  author={Kazi Aouel, Abdessamad and Imine, Youcef and Heddi, Hichem and Kaddour, Sidi Mohammed},
+  howpublished={Master's thesis, University of Tlemcen},
   year={2014},
+  abbr={Thesis},
   preview={pub.png},
+  keywords={Android, Mobile Development, Educational Games},
   abstract={This work presents the development of an educational Android mobile application designed to enhance learning through interactive games focused on numbers and letters. The report details application design, implementation, and educational objectives.}
-}
-
-@article{kaddour2024event,
-  title={Event Detection for Non-intrusive Load Monitoring using Tukey s Fences},
-  author={Kaddour, Sidi Mohammed and Lehsaini, Mohamed and Bouchachia, Abdelhamid},
-  journal={arXiv preprint arXiv:2402.17809},
-  year={2024},
-  preview={pub.png},
-  abstract={This paper proposes a Tukey’s Fences-based event detection method for non-intrusive load monitoring (NILM). By combining FFT-based analysis with statistical fences, the approach accurately detects appliance switching events in aggregated electrical signals, achieving high detection accuracy compared to existing methods.}
-}
-
-@inproceedings{ilager2024proteus,
-  title={Proteus: Towards Intent-driven Automated Resource Management Framework for Edge Sensor Nodes},
-  author={Ilager, Shashikant and Balouek, Daniel and Kaddour, Sidi Mohammed and Brandic, Ivona},
-  booktitle={Proceedings of the 14th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures},
-  pages={1--8},
-  year={2024},
-  preview={pub.png},
-  selected={true},
-  abstract={Proteus presents an intent-driven framework for automated resource management in edge sensor nodes. The framework translates high-level intents into low-level resource configurations, enabling adaptive, efficient, and scalable management of edge infrastructures.}
-}
-
-@inproceedings{jonglez2025multi,
-  title={Multi-provider capabilities in EnOSlib: driving distributed system experiments on the edge-to-cloud continuum},
-  author={Jonglez, Baptiste and Simonin, Matthieu and Philippe, Jolan and Kaddour, Sidi Mohammed},
-  booktitle={IFIP International Conference on Distributed Applications and Interoperable Systems},
-  pages={25--42},
-  year={2025},
-  organization={Springer Nature Switzerland Cham},
-  preview={pub.png},
-  selected={true},
-  abstract={This paper extends EnOSlib with multi-provider capabilities to support experimental research across the edge-to-cloud continuum. The proposed enhancements enable seamless orchestration, reproducibility, and performance evaluation of distributed systems spanning heterogeneous infrastructures.}
-}
-
-@inproceedings{10.1145/3773274.3774855,
-  author={Kaddour, Sidi Mohammed and Jonglez, Baptiste and Balouek, Daniel},
-  title={Application level observability for adaptive Edge to Cloud continuum systems},
-  year={2026},
-
-  selected={true},
-  isbn={9798400722851},
-  publisher={Association for Computing Machinery},
-  address={New York, NY, USA},
-  url={https://doi.org/10.1145/3773274.3774855},
-  doi={10.1145/3773274.3774855},
-  abstract={This paper introduces an application-level observability framework for adaptive Edge-to-Cloud systems. The approach integrates SLO-aware feedback loops and fine-grained monitoring using OpenTelemetry, Prometheus, and Kubernetes-based infrastructures. Experimental results show improved adaptability, scalability, and resilience under dynamic workloads and fault conditions.},
-  booktitle={Proceedings of the 18th IEEE/ACM International Conference on Utility and Cloud Computing},
-  articleno={58},
-  numpages={6},
-  preview={pub.png},
-  keywords={Edge-to-Cloud Continuum, Application-level Observability, Service-Level Objectives, Adaptive Systems},
-  series={UCC '25}
 }

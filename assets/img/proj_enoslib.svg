@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-label="Multi-provider experiments with EnOSlib">
+  <rect width="900" height="500" fill="#f8f4f0"/>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="450" y="70" font-size="34" font-weight="700" fill="#2b211c">Multi-provider experiments</text>
+    <text x="450" y="106" font-size="20" fill="#7a6a60">one description, several testbeds</text>
+
+    <rect x="330" y="150" width="240" height="70" rx="18" fill="#8f3f2a"/>
+    <text x="450" y="194" font-size="24" font-weight="700" fill="#fff8f2">EnOSlib</text>
+
+    <path d="M450 220 L450 250 M450 250 L170 250 L170 300 M450 250 L450 300 M450 250 L730 250 L730 300"
+          fill="none" stroke="#c9b8ac" stroke-width="3"/>
+
+    <g fill="#ffffff" stroke="#d8c9bd" stroke-width="2">
+      <rect x="70" y="300" width="200" height="110" rx="16"/>
+      <rect x="350" y="300" width="200" height="110" rx="16"/>
+      <rect x="630" y="300" width="200" height="110" rx="16"/>
+    </g>
+    <g font-size="21" font-weight="700" fill="#2b211c">
+      <text x="170" y="348">Grid'5000</text>
+      <text x="450" y="348">Cloud VMs</text>
+      <text x="730" y="348">Edge nodes</text>
+    </g>
+    <g font-size="16" fill="#7a6a60">
+      <text x="170" y="378">bare metal</text>
+      <text x="450" y="378">OpenStack / Chameleon</text>
+      <text x="730" y="378">IoT-lab</text>
+    </g>
+
+    <g fill="#8f3f2a">
+      <circle cx="170" cy="270" r="6"/>
+      <circle cx="450" cy="270" r="6"/>
+      <circle cx="730" cy="270" r="6"/>
+    </g>
+    <text x="450" y="458" font-size="17" fill="#7a6a60">synchronized reservation &#183; reproducible deployment &#183; DAIS 2025</text>
+  </g>
+</svg>

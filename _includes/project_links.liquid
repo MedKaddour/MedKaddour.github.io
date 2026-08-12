@@ -1,0 +1,23 @@
+{% comment %}
+  Renders a row of direct links for a project.
+  Usage: {% include project_links.liquid links=page.links %}
+  Each link entry supports: name, url, icon (Font Awesome classes).
+{% endcomment %}
+
+{% if include.links and include.links.size > 0 %}
+  <div class="project-links">
+    {% for link in include.links %}
+      <a
+        class="project-link"
+        href="{{ link.url }}"
+        {% if link.url contains '://' %}
+          target="_blank" rel="external noopener"
+        {% endif %}
+        title="{{ link.name }}"
+      >
+        <i class="{% if link.icon %}{{ link.icon }}{% else %}fa-solid fa-arrow-up-right-from-square{% endif %}"></i>
+        <span>{{ link.name }}</span>
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}

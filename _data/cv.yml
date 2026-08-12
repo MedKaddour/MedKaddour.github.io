@@ -3,8 +3,24 @@
   contents:
     - name: Full Name
       value: Sidi Mohammed Kaddour
+    - name: Position
+      value: Research and Development Engineer, Inria (STACK team), Nantes, France
     - name: Contact
       value: medkaddourr@gmail.com
+    - name: Profiles
+      links:
+        - name: Google Scholar
+          link: https://scholar.google.com/citations?user=UFnOqHEAAAAJ
+        - name: ORCID
+          link: https://orcid.org/0000-0002-2745-4024
+        - name: DBLP
+          link: https://dblp.org/pid/301/2151.html
+        - name: GitHub
+          link: https://github.com/MedKaddour
+        - name: Inria GitLab
+          link: https://gitlab.inria.fr/sikaddou
+        - name: LinkedIn
+          link: https://www.linkedin.com/in/kaddour-sidi-mohammed-phd-1551a1110
 
 - title: Education
   type: time_table
@@ -12,6 +28,12 @@
     - title: PhD in Networks and Distributed Systems
       institution: University of Tlemcen, Algeria
       year: 2016 - 2023
+      description:
+        - "Thesis: Soft Sensors for Complex Systems"
+        - Co-supervised with Bournemouth University, UK
+      linkitems:
+        - link: https://theses.hal.science/tel-04461469
+          linkname: Thesis (HAL)
     - title: Master's Degree in Networks and Distributed Systems
       institution: University of Tlemcen, Algeria
       year: 2014 - 2016
@@ -26,66 +48,145 @@
   type: time_table
   contents:
     - title: R&D Engineer
-      institution: STACK/INRIA, Nantes, France
-      year: Dec2024–Nov2026
+      institution: Inria, STACK team, Nantes, France
+      year: Dec 2024 - Nov 2026
       description:
-        - Integrating Concerto with Ansible for Efficient Reconfiguration
+        - Integrating Concerto's coordination model with Ansible for efficient reconfiguration (CoAnsible)
+        - Playbook-to-assembly translation and dependency analysis, evaluated on Grid'5000
+      linkitems:
+        - link: https://gitlab.inria.fr/STACK-RESEARCH-GROUP/software/coansible-use-cases
+          linkname: CoAnsible use-cases
+        - link: https://stack-research-group.gitlabpages.inria.fr/web/
+          linkname: STACK team
     - title: R&D Engineer
-      institution: STACK/IMT Atlantique, Nantes, France
-      year: Dec2023–Nov2024
+      institution: IMT Atlantique, STACK team, Nantes, France
+      year: Dec 2023 - Nov 2024
       description:
-        - Feedback mechanisms for Edge-to-Cloud Applications
+        - Feedback mechanisms and application-level observability for Edge-to-Cloud applications
+        - Distributed video processing pipeline instrumented with OpenTelemetry and Prometheus, deployed on k3s over Grid'5000
+      linkitems:
+        - link: https://gitlab.inria.fr/STACK-RESEARCH-GROUP/software/edge-to-cloud-video-processing
+          linkname: Source code
+        - link: https://dl.acm.org/doi/10.1145/3773274.3774855
+          linkname: UCC '25 paper
     - title: ERP Project Manager
-      institution: Groupe Kherbouche, Tlemcen, Algeria
-      year: Jul2018–Sep2023
+      institution: Groupe Kherbouche (InterEntreprise), Tlemcen, Algeria
+      year: Jul 2018 - Sep 2023
+      description:
+        - Senior Odoo/OpenERP developer, then project manager for the company ERP
+        - Module development, Linux and PostgreSQL administration, deployment and change management
     - title: Visiting PhD Student
       institution: Bournemouth University, UK
-      year: Jun2019–Aug 2019
+      year: Jun 2019 - Aug 2019
       description:
-        - Smart energy solution using machine learning
+        - Smart energy solutions using machine learning
     - title: Temporary University Teacher
       institution: University of Tlemcen, Algeria
-      year: Sep2017–Sep2020
+      year: Sep 2017 - Sep 2020
       description:
-        - Courses on Advanced Operating Systems and Cloud Computing
+        - Courses on Advanced Operating Systems, Cloud Computing, and Signal Processing
     - title: Remote Delphi Developer
-      institution: Soft Builder, Tlemcen, Algeria
-      year: Apr2014–Nov2016
+      institution: SoftBuilder, Tlemcen, Algeria
+      year: Apr 2014 - Nov 2016
+      description:
+        - ERBuilder data modeler: schema reverse engineering and multi-engine SQL generation
+      linkitems:
+        - link: https://soft-builder.com/erbuilder-data-modeler/
+          linkname: ERBuilder
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: Application level observability for adaptive Edge to Cloud continuum systems
+      institution: UCC '25 - 18th IEEE/ACM International Conference on Utility and Cloud Computing
+      year: 2025
+      linkitems:
+        - link: https://dl.acm.org/doi/10.1145/3773274.3774855
+          linkname: ACM DL
+        - link: https://arxiv.org/abs/2601.14923
+          linkname: arXiv
+    - title: "Multi-provider capabilities in EnOSlib: driving distributed system experiments on the edge-to-cloud continuum"
+      institution: DAIS 2025 - 25th IFIP WG 6.1 International Conference
+      year: 2025
+      linkitems:
+        - link: https://link.springer.com/chapter/10.1007/978-3-031-95728-4_2
+          linkname: Springer
+        - link: https://inria.hal.science/hal-05052776v1/document
+          linkname: PDF
+    - title: "Proteus: Towards Intent-driven Automated Resource Management Framework for Edge Sensor Nodes"
+      institution: FlexScience '24 workshop, ACM HPDC
+      year: 2024
+      linkitems:
+        - link: https://dl.acm.org/doi/10.1145/3659995.3660037
+          linkname: ACM DL
+        - link: https://hal.science/hal-04775138v1/document
+          linkname: PDF
+    - title: Event Detection for Non-intrusive Load Monitoring using Tukey's Fences
+      institution: arXiv preprint
+      year: 2024
+      linkitems:
+        - link: https://arxiv.org/abs/2402.17809
+          linkname: arXiv
+    - title: Electricity consumption data analysis using various outlier detection methods
+      institution: International Journal of Software Science and Computational Intelligence
+      year: 2021
+      linkitems:
+        - link: https://doi.org/10.4018/IJSSCI.2021070102
+          linkname: DOI
+
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: Co-Web Chair
+      institution: UCC 2025 - 18th IEEE/ACM International Conference on Utility and Cloud Computing, Nantes
+      year: 2025
+      linkitems:
+        - link: https://ucc-conference.org
+          linkname: Conference site
+    - title: Co-Web Chair
+      institution: BDCAT 2025 - 12th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies, Nantes
+      year: 2025
+      linkitems:
+        - link: https://bdcat-conference.org
+          linkname: Conference site
 
 - title: Teaching Experience
   type: time_table
   contents:
     - title: Advanced Operating Systems
-      period: 2017–2020
+      period: 2017-2020
       institution: University of Tlemcen, Algeria
       level: Bachelor (Year 3)
       responsible: Samir Benaissa
       description: Hands-on course using Ubuntu Linux. Topics included shell commands, file and network management, and C programming for process management, scheduling, synchronization, signals, and IPC.
     - title: Cloud Computing
-      period: 2018–2019
+      period: 2018-2019
       institution: University of Tlemcen, Algeria
       level: Master (Year 2)
       responsible: Zeyneb Bensafi
       description: Introduction to Eclipse Cloud Dev-Tool in Java. Covered environment setup, project creation, and deploying cloud applications.
     - title: Signal Processing
-      period: 2018–2019
+      period: 2018-2019
       institution: University of Tlemcen, Algeria
       level: Master (Year 1, Telecommunications)
       responsible: Hichem Hachemi
       description: Introduction to signal analysis using MATLAB. Focused on audio signals and feature extraction techniques.
     - title: Middleware (XMS3IU010)
-      period: Sep–Dec 2024
-      institution: University of Nantes, France
+      period: Sep-Dec 2024
+      institution: Nantes Université, France
       level: Master (Year 2)
       duration: 24 hours (6h40 theory, 17h20 practicals)
       responsible: Daniel Balouek
       description: Covered Cloud and Edge platforms, including OpenStack deployment, Docker and Kubernetes usage, multi-tier observability, and lifecycle adaptation.
     - title: DevOps Training (FIL Continuing Education)
-      period: May–Jun 2025
+      period: May-Jun 2025
       institution: IMT Atlantique, France
       level: Continuing Education
       responsible: Hélène Coullon
       description: Covered DevOps principles including CI/CD pipelines, Docker, infrastructure as code, and deployment automation.
+      linkitems:
+        - link: https://gitlab.imt-atlantique.fr/ue-devops-fila2/cours-ansible-voting-app
+          linkname: Course material
 
 - title: Supervision Activities
   type: time_table
@@ -114,36 +215,87 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: edge to cloud video processing use-case
-      year: 2024
-      description: Motion detection and object recognition pipeline with feedback loop and monitoring.
+    - title: Edge-to-cloud video processing use-case
+      year: 2024 - present
+      description:
+        - Motion detection at the edge, object recognition in the cloud, OpenTelemetry instrumentation and SLO-driven feedback loop
+      linkitems:
+        - link: https://gitlab.inria.fr/STACK-RESEARCH-GROUP/software/edge-to-cloud-video-processing
+          linkname: Repository
+    - title: CoAnsible use-cases
+      year: 2025
+      description:
+        - Grid'5000 provisioning from Ansible inventories, playbook dependency extraction, generation of Concerto assemblies
+      linkitems:
+        - link: https://gitlab.inria.fr/STACK-RESEARCH-GROUP/software/coansible-use-cases
+          linkname: Repository
+    - title: EnOSlib
+      year: 2025
+      description:
+        - Contributor to the multi-provider extension for experiments across the edge-to-cloud continuum
+      linkitems:
+        - link: https://gitlab.inria.fr/discovery/enoslib
+          linkname: Repository
+        - link: https://discovery.gitlabpages.inria.fr/enoslib/
+          linkname: Documentation
+    - title: Conference websites (UCC 2025, BDCAT 2025)
+      year: 2025
+      description:
+        - Hugo sites deployed through GitLab CI/CD, including program and schedule publication
+      linkitems:
+        - link: https://ucc-conference.org
+          linkname: UCC 2025
+        - link: https://bdcat-conference.org
+          linkname: BDCAT 2025
 
-- title: Trainings and certeficats
+- title: Trainings and Certifications
   type: time_table
   contents:
-    - year: 2021
-      institution: InterEntreprise
-      title: ISO 19011 Internal Auditor Certification
     - year: 2022
       institution: InterEntreprise
       title: ISO 9001 Training
     - year: 2021
+      institution: InterEntreprise
+      title: ISO 19011 Internal Auditor Certification
+    - year: 2021
       institution: IBNROCHD
-      title: ITIL V4 Foundation Training
+      title: ITIL v4 Foundation Training
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Orchestration and infrastructure
+      items:
+        - Ansible, Concerto, Helm
+        - Kubernetes, k3s, Docker, OpenStack
+        - Grid'5000, EnOSlib, CI/CD pipelines
+    - title: Observability
+      items:
+        - OpenTelemetry, Prometheus, Grafana
+        - Zipkin, Jaeger, Chaos Mesh
+    - title: Programming
+      items:
+        - Python, C, Java, Delphi/Pascal
+        - Bash, YAML, SQL
+    - title: Data and machine learning
+      items:
+        - TensorFlow, scikit-learn, OpenCV
+        - Time-series analysis, clustering, anomaly detection
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Edge-to-Cloud Computing
       items:
-        - Adaptive systems
+        - Adaptive systems and feedback loops
         - Monitoring and observability
+        - Reproducible experimentation
     - title: Machine Learning
       items:
-        - Smart energy
+        - Smart energy and NILM
         - Time-series and anomaly detection
 
-- title: languages
+- title: Languages
   type: list
   contents:
     - Arabic (Fluent)

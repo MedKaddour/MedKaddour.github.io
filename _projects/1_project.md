@@ -1,11 +1,18 @@
 ---
 layout: page
 title: ERBuilder
-description: Exploring data modeling and SQL generation across SGBDs
+description: Data modeling and SQL generation across relational database engines, in Delphi/Pascal (2014-2016)
 img: assets/img/img_5.png
-importance: 5
+importance: 2
 category: industry
-related_publications: true
+tags: [Delphi, Pascal, SQL, Reverse Engineering, PostgreSQL]
+links:
+  - name: ERBuilder
+    url: https://soft-builder.com/erbuilder-data-modeler/
+    icon: fa-solid fa-database
+  - name: SoftBuilder
+    url: https://soft-builder.com/
+    icon: fa-solid fa-building
 ---
 
 The first project I’d like to share is my experience working on [**ERBuilder**](https://soft-builder.com/erbuilder-data-modeler/), a professional data modeling tool developed by _SoftBuilder_. ERBuilder enables users to visually design, generate, and reverse engineer databases across multiple relational database management systems.

@@ -1,10 +1,18 @@
 ---
 layout: page
 title: GKOS InterEntreprise
-description: From Senior Odoo Developer to ERP Project Manager (2018–2023)
+description: From senior Odoo developer to ERP project manager, five years running a production ERP (2018-2023)
 img: assets/img/img_4.png
-importance: 4
+importance: 1
 category: industry
+tags: [Odoo, Python, PostgreSQL, Linux, ITIL v4, ISO 9001]
+links:
+  - name: Odoo
+    url: https://github.com/odoo/odoo
+    icon: fa-brands fa-github
+  - name: ITIL v4
+    url: https://www.axelos.com/certifications/itil-service-management
+    icon: fa-solid fa-certificate
 ---
 
 From 2018 to 2023, I worked at **Kherbouche Enterprise InterEntreprise**, where I started as a **Senior Odoo (OpenERP) Developer** and later became the **Project Manager** for their ERP systems.

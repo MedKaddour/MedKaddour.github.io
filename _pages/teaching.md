@@ -69,6 +69,17 @@ nav_order: 6
       </div>
 
       <p>{{ item.description }}</p>
+
+      {% if item.linkitems %}
+        <div class="project-links">
+          {% for link in item.linkitems %}
+            <a class="project-link" href="{{ link.link }}" target="_blank" rel="external noopener">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <span>{{ link.linkname | default: "Link" }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
     </article>
 
 {% endfor %}

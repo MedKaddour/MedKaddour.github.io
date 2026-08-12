@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected research and engineering work across distributed systems, automation, data tooling, and applied machine learning.
 nav: true
 nav_order: 3
-display_categories: [research, industry]
+display_categories: [research, industry, community]
 horizontal: false
 ---
 

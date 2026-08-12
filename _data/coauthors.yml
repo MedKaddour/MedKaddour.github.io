@@ -1,34 +1,30 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Co-authors are linked to their personal or institutional page in the
+# publication list. Keys are lowercase last names without accents.
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"balouek":
+  - firstname: ["Daniel", "D."]
+    url: https://daniel-balouek.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"jonglez":
+  - firstname: ["Baptiste", "B."]
+    url: https://gitlab.inria.fr/bjonglez
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"simonin":
+  - firstname: ["Matthieu", "M."]
+    url: https://stack-research-group.gitlabpages.inria.fr/web/pages/members.html
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"philippe":
+  - firstname: ["Jolan", "J."]
+    url: https://stack-research-group.gitlabpages.inria.fr/web/pages/members.html
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"ilager":
+  - firstname: ["Shashikant", "S."]
+    url: https://shashikantilager.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"brandic":
+  - firstname: ["Ivona", "I."]
+    url: https://informatics.tuwien.ac.at/people/ivona-brandic
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"bouchachia":
+  - firstname: ["Abdelhamid", "A.", "Hamid"]
+    url: https://staffprofiles.bournemouth.ac.uk/display/abouchachia

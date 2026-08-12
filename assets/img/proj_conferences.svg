@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-label="Web chair for UCC 2025 and BDCAT 2025">
+  <rect width="900" height="500" fill="#f8f4f0"/>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="450" y="68" font-size="34" font-weight="700" fill="#2b211c">Conference websites</text>
+    <text x="450" y="104" font-size="20" fill="#7a6a60">Co-Web Chair &#183; Nantes, France</text>
+
+    <g>
+      <rect x="70" y="150" width="350" height="250" rx="18" fill="#ffffff" stroke="#d8c9bd" stroke-width="2"/>
+      <path d="M70 168 a18 18 0 0 1 18 -18 h314 a18 18 0 0 1 18 18 v26 h-350 z" fill="#8f3f2a"/>
+      <g fill="#fff8f2" opacity="0.85">
+        <circle cx="96" cy="172" r="6"/><circle cx="118" cy="172" r="6"/><circle cx="140" cy="172" r="6"/>
+      </g>
+      <text x="245" y="266" font-size="42" font-weight="700" fill="#2b211c">UCC 2025</text>
+      <text x="245" y="302" font-size="18" fill="#7a6a60">18th IEEE/ACM Utility</text>
+      <text x="245" y="326" font-size="18" fill="#7a6a60">and Cloud Computing</text>
+      <rect x="150" y="348" width="190" height="10" rx="5" fill="#eadfd6"/>
+    </g>
+
+    <g>
+      <rect x="480" y="150" width="350" height="250" rx="18" fill="#ffffff" stroke="#d8c9bd" stroke-width="2"/>
+      <path d="M480 168 a18 18 0 0 1 18 -18 h314 a18 18 0 0 1 18 18 v26 h-350 z" fill="#1f5673"/>
+      <g fill="#f2f8fb" opacity="0.85">
+        <circle cx="506" cy="172" r="6"/><circle cx="528" cy="172" r="6"/><circle cx="550" cy="172" r="6"/>
+      </g>
+      <text x="655" y="266" font-size="40" font-weight="700" fill="#2b211c">BDCAT 2025</text>
+      <text x="655" y="302" font-size="18" fill="#7a6a60">12th IEEE/ACM Big Data</text>
+      <text x="655" y="326" font-size="18" fill="#7a6a60">Computing and Applications</text>
+      <rect x="560" y="348" width="190" height="10" rx="5" fill="#eadfd6"/>
+    </g>
+
+    <text x="450" y="452" font-size="17" fill="#7a6a60">Hugo &#183; CI/CD pages &#183; program, schedule and registration content</text>
+  </g>
+</svg>
