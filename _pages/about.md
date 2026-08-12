@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p>Team STACK</p>
     <p>Inria</p>
-    <p><a href="mailto:medkaddourr@gmail.com">medkaddourr@gmail.com</a></p>
+    <p><a href="mailto:%6D%65%64%6B%61%64%64%6F%75%72%72@%67%6D%61%69%6C.%63%6F%6D">Email me</a></p>
 
 selected_papers: true
 social: true

@@ -2,7 +2,6 @@
   "basics": {
     "name": "Sidi Mohammed Kaddour",
     "label": "R&D Engineer, Inria (STACK team)",
-    "email": "medkaddourr@gmail.com",
     "url": "https://medkaddour.github.io",
     "summary": "Research and development engineer working on the edge-to-cloud continuum: application-level observability, feedback loops, and coordinated deployment of distributed systems. PhD in networks and distributed systems, with a background in machine learning for smart energy and in industrial ERP engineering.",
     "location": {
