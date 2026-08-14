@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p>Team STACK</p>
     <p>Inria</p>
-    <p><a href="mailto:%6D%65%64%6B%61%64%64%6F%75%72%72@%67%6D%61%69%6C.%63%6F%6D">Email me</a></p>
+    <p><a href="mailto:%73%69%64%69-%6D%6F%68%61%6D%6D%65%64.%6B%61%64%64%6F%75%72@%69%6E%72%69%61.%66%72">Email me</a></p>
 
 selected_papers: true
 social: true
@@ -28,11 +28,21 @@ latest_posts:
   limit: 3
 ---
 
-<p class="home-kicker">Research engineer at Inria STACK</p>
+<p class="home-kicker">Research &amp; Development Engineer, Inria STACK</p>
 
 <p class="home-lead">
-  I design feedback-driven systems for the edge-to-cloud continuum, with a focus on observability,
-  orchestration, and adaptive deployment.
+  I build and measure distributed systems that span the edge-to-cloud continuum. My work turns on two
+  questions: how do you see what a geo-distributed application is actually doing, and how do you
+  reconfigure it safely once you know? In practice that means application-level observability with
+  OpenTelemetry and Prometheus, coordination-aware deployment with Ansible and Concerto, and
+  experiments large enough to be worth trusting on <a href="https://www.grid5000.fr">Grid'5000</a>.
+</p>
+
+<p class="home-lead home-lead-secondary">
+  Before Nantes I completed a PhD in networks and distributed systems at the University of Tlemcen,
+  co-supervised with Bournemouth University, on soft sensors for complex systems &mdash; and spent
+  five years building and running an ERP in production, which is where my preference for systems that
+  survive contact with reality comes from.
 </p>
 
 <div class="focus-tags">
@@ -109,4 +119,4 @@ latest_posts:
 
 ---
 
-You can start with my projects, publications, or CV below, then reach out through the contact links if you'd like to discuss research, engineering, or collaboration.
+If you'd like to talk about research, engineering, or a possible collaboration, the contact links above are the fastest way to reach me.

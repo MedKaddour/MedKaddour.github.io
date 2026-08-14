@@ -151,6 +151,12 @@ html[data-theme="dark"] .profile .more-info {
   line-height: 1.7;
 }
 
+// background paragraph: same measure, quieter than the opening lead
+.home-lead-secondary {
+  font-size: 1.05rem;
+  opacity: 0.85;
+}
+
 .focus-tags {
   display: flex;
   flex-wrap: wrap;
